@@ -1,0 +1,21 @@
+/* color: #aaa;
+color: #555;
+font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+font-size: 14px; */
+
+/* base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.4rem;
+}
