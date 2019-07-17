@@ -19,3 +19,71 @@ body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.4rem;
 }
+
+/* navigation */
+.nav a {
+  text-decoration: none;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+/* FIXEME:  */
+.logo__main {
+  display: none;
+}
+
+.nav__top {
+  display: flex;
+  background-color: #151515;
+  padding: .8rem .5rem;
+}
+
+.nav__top a:link,
+.nav__top a:visited {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-left: 2rem;
+}
+
+.nav__top a:hover,
+.nav__top a:active {
+  color: white;
+}
+
+.nav__bottom {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(236, 233, 233);
+  align-items: center;
+}
+
+.nav__bottom > a:link,
+.nav__bottom > a:visited {
+  font-weight: 200;
+  font-size: 1.7rem;
+  color: #AAA;
+  padding: 1.2rem;
+  border: 1px solid rgb(236, 233, 233);
+}
+
+.nav__bottom > a:hover i,
+.nav__bottom > a:active i {
+  color: #555;
+}
+
+.nav__list {
+  display: flex;
+  margin-left: 1rem;
+}
+
+.nav__list li {
+  padding: 1.2rem 1.2rem;
+}
+
+.nav__list a {
+  font-weight: 200;
+  font-size: 1.6rem;
+  color: #AAA;
+}
