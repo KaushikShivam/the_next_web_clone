@@ -13,6 +13,7 @@ font-size: 14px; */
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  max-width: 144.4rem;
 }
 
 body {
@@ -86,4 +87,60 @@ body {
   font-weight: 200;
   font-size: 1.6rem;
   color: #AAA;
+}
+
+/* articles */
+
+.articles {
+  display: flex;
+  height: 51rem;
+}
+
+.article__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: linear-gradient(to right bottom, rgba(255, 67, 34, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.ytimg.com/vi/JXpoALotxf0/hqdefault.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex: 2;
+}
+
+.articles__aside {
+  flex: 1;
+}
+
+.article__main__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem;
+}
+
+.article__main__top img{
+  width: 50%;
+}
+
+.article__main__top p {
+  align-self: flex-start;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.article__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.article__box h1 {
+  font-size: 4.5rem;
+  font-weight: bolder;
+  width: 80%;
+}
+
+.article__box__list {
+  display: flex;
+
 }
