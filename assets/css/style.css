@@ -300,6 +300,7 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-content: flex-start;
 }
 
 .deal-box__header {
@@ -384,3 +385,47 @@ body {
 .deal-list li:last-of-type {
   padding-bottom: 8rem;
 }
+
+/* Categories */
+
+.categories {
+  width: 80%;
+  margin: 5rem auto;
+}
+
+
+.category-box{
+  width: 43rem;
+  height: 500rem;
+  background-color: teal;
+}
+
+.category-header {
+  background: rgba(0, 0, 0, 0.384) url('https://www.thesprucepets.com/thmb/gSDyJAlQHfd_XTbIAK5rVVxuVBg=/400x250/filters:no_upscale():max_bytes(150000):strip_icc()/puppy-samoyed-boy-990077480-5c89719646e0fb00012c67e8.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 27.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  padding: 1rem 1.5rem;
+}
+
+.category-header a {
+  text-decoration: none;
+  color: white;
+}
+
+.category-header > ul {
+  display: flex;
+  margin-right: 1rem;
+  list-style: none;
+}
+
+.category-header > ul li {
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
