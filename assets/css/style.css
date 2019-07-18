@@ -256,7 +256,49 @@ body {
   color: black;
 }
 
+/* deals section */
+.deals {
+  width: 80%;
+  margin: 0 auto;
+}
 
-/* 16
-12 */
+.deals__header {
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
 
+.deals__header h3 {
+  font-size: 2.8rem;
+}
+
+.deals__header a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.deals__header ul {
+  display: flex;
+  list-style: none;
+}
+
+.deals__header li {
+  font-size: 1.6rem;
+  color: #f42;
+}
+
+.deals__header li > a {
+  margin-right: 1rem;
+  padding-right: 1rem;
+  border-right: 1px solid #f42;
+}
+
+.deals-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.deal-box {
+  background-color: teal;
+}
