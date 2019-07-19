@@ -1,7 +1,8 @@
-/* color: #aaa;
-color: #555;
-font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
-font-size: 14px; */
+/* variables*/
+:root {
+  --tablet-b: 47em;
+  --mobile-l: 26.5em;
+}
 
 /* base styling */
 * {
@@ -22,6 +23,14 @@ body {
 }
 
 /* navigation */
+.nav {
+  display: flex;
+}
+
+.nav__container {
+  width: 100%;
+}
+
 .nav a {
   text-decoration: none;
 }
@@ -32,7 +41,23 @@ body {
 
 /* FIXEME:  */
 .logo__main {
+  background: linear-gradient(to bottom right,#c09,#f42 85%);
   display: none;
+  width: 13rem;
+  height: 8rem;
+  align-content: center;
+}
+
+@media screen and (max-width: 48em) {
+  .logo__main {
+    display: flex;
+  }
+}
+
+
+.logo__main img {
+  width: 100%;
+  padding: 2rem;
 }
 
 .nav__top {
