@@ -303,6 +303,10 @@ body {
   align-content: flex-start;
 }
 
+.deal-box {
+  width: 28rem;
+}
+
 .deal-box__header {
   position: relative;
   width: 100%;
