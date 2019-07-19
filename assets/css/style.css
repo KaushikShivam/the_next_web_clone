@@ -735,7 +735,7 @@ body {
 
 }
 
-@media screen and (max-width: 51.5em) {
+@media screen and (max-width: 54.68em) {
   html {
     font-size: 50%;
   }
@@ -745,17 +745,44 @@ body {
 /* tablet 768px */
 @media screen and (max-width: 48em) {
   
-  .articles {
-    flex-direction: column;
-
+  html {
+    font-size: 50%;
   }
   
-  .article__main,
-  .articles__aside {
-    flex-grow: 1;
+  .articles {
+    flex-direction: column;
+    flex: 1
+  }
+  
+  .article__main {
+    flex: 0;
   }
 
-  .article__main
+  .articles__aside {
+    flex: 1;
+  }
+  
+  .article__main {
+    margin-bottom: 1rem;
+    margin-right: 0;
+  }
+
+  .article__main h1 {
+    font-size: 3rem;
+    padding-right: 0;
+    font-weight: 900;
+    width: 100%;
+    line-height: 1.2
+  }
+  
+  .article__sec header {
+    margin-top: 2rem;
+  }
+  
+  .article__sec h5 {
+    padding-top: 0;
+  }
+  
   
 }
 
