@@ -414,7 +414,6 @@ body {
 }
 
 .category-header {
-  background: rgba(0, 0, 0, 0.384) url('https://www.thesprucepets.com/thmb/gSDyJAlQHfd_XTbIAK5rVVxuVBg=/400x250/filters:no_upscale():max_bytes(150000):strip_icc()/puppy-samoyed-boy-990077480-5c89719646e0fb00012c67e8.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -425,6 +424,39 @@ body {
   color: white;
   padding: 1rem 1.5rem;
 }
+
+.category-header--1 {
+  background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/reddit-multis-custom-feeds-368x276.jpg');
+}
+
+.category-header--2 {
+  background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/parkng-location-google-maps-basics-save-parking-parking-car-park-help-find.jpg');
+}
+
+.category-header--3 {
+  background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/SonyController-368x276.png');
+}
+
+.category-header--4 {
+  background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/wrong-368x276.jpg');
+}
+
+.category-header--5 {
+  background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/chineseverticalB1200-368x276.png');
+}
+
+.category-header--6 {
+  background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/sexist-368x276.png');
+}
+
+.category-header--7 {
+  background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/google-facebook-porn-tracking-privacy-security-368x276.jpg');
+}
+
+.category-header--8 {
+  background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Orion-Doom-Bethesda-hed-368x276.jpg');
+}
+
 
 .category-header a {
   text-decoration: none;
