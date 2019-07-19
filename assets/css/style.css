@@ -430,15 +430,15 @@ body {
 }
 
 .category-header--2 {
-  background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/parkng-location-google-maps-basics-save-parking-parking-car-park-help-find.jpg');
-}
-
-.category-header--3 {
   background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/SonyController-368x276.png');
 }
 
+.category-header--3 {
+  background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/parkng-location-google-maps-basics-save-parking-parking-car-park-help-find.jpg');
+}
+
 .category-header--4 {
-  background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/wrong-368x276.jpg');
+  background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/TurboGrafx-Mini-368x276.jpg');
 }
 
 .category-header--5 {
