@@ -564,5 +564,56 @@ body {
 }
 
 
+/* footer section */
+/* .footer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+} */
 
+.footer__content {
+  background-color: #131313;
+  padding: 4rem;
+}
 
+.footer__top,
+.footer__bottom {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer__top a { 
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  background-color: #333;
+  color: white;
+  margin: 1rem;
+  border-radius: 50%;
+}
+
+.footer__bottom {
+  list-style: none;
+  margin-top: 2rem;
+}
+
+.footer__bottom a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.footer p {
+  font-size: 1.2rem;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  background-color: #151515;
+}
