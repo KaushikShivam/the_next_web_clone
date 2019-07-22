@@ -457,7 +457,7 @@ body {
 }
 
 .deal-list li:last-of-type {
-  padding-bottom: 8rem;
+  padding-bottom: 3rem;
 }
 
 /* Categories */
@@ -467,7 +467,7 @@ body {
   margin: 5rem auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
+  grid-column-gap: 2rem;
 }
 
 
@@ -769,6 +769,19 @@ body {
 
 }
 
+/* size 1200px */
+@media screen and (max-width: 75em) {
+  .news,
+  .latest,
+  .deals,
+  .categories {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
+
 /* laptop 1024px */
 @media screen and (max-width: 64em){
 
@@ -819,12 +832,12 @@ body {
   
   /* categories section */
   .categories {
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 4rem;
   }
   
   .category-header {
-    height: 50rem;
+    height: 27rem;
   }
   
   .category__img {
@@ -840,20 +853,7 @@ body {
 
 }
 
-/* size 1200px */
-@media screen and (max-width: 75em) {
-  .news,
-  .latest,
-  .deals,
-  .categories {
-    width: 95%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-}
-
-/*  */
+/* 875px */
 @media screen and (max-width: 54.68em) {
   html {
     font-size: 50%;
@@ -866,6 +866,11 @@ body {
   /* base styling */
   html {
     font-size: 57%;
+  }
+
+  .articles h1, 
+  .articles h2 {
+    font-size: 3rem;
   }
   
   /* navigation */
@@ -927,6 +932,7 @@ body {
   /* news section */
   .news {
     margin: 4rem auto;
+    margin-top: 10rem;
   }
   
   .news__container {
@@ -979,7 +985,11 @@ body {
   /* categories section */
   .categories {
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 5rem;
+    grid-row-gap: 2rem;
+  }
+
+  .category-header {
+    height: 50rem;
   }
 
   /* lates deals section*/
@@ -1007,10 +1017,17 @@ body {
   
 }
 
-/* mobile-l 425px */
+/* 538px */
+@media screen and (max-width: 33.6em) {
+  .articles h1, 
+  .articles h2 {
+    font-size: 2rem;
+  }
+}
+/* mobile-l 425px
 @media screen and (max-width: 26.5em){
 
-}
+} */
 
 /* mobile-m 375px */
 @media screen and (max-width: 23.4em){
