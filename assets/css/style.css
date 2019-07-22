@@ -335,6 +335,11 @@ body {
   text-decoration: none;
 }
 
+.deals__header  a:hover,
+.deal-list a:hover {
+  color: black;
+}
+
 .deals__header ul {
   display: flex;
   list-style: none;
