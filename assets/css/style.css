@@ -459,9 +459,6 @@ body {
   grid-gap: 2%;
 }
 
-/* FIXME */
-.category-box{
-}
 
 .category-box h3 {
   font-size: 2.8rem;
@@ -473,17 +470,6 @@ body {
   color: #f42
 }
 
-.category-header {
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 27.6rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  color: white;
-  padding: 1rem 1.5rem;
-}
 
 .category-header--1 {
   background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/reddit-multis-custom-feeds-368x276.jpg');
@@ -515,6 +501,18 @@ body {
 
 .category-header--8 {
   background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Orion-Doom-Bethesda-hed-368x276.jpg');
+}
+
+.category-header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 27.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  padding: 1rem 1.5rem;
 }
 
 
@@ -758,6 +756,27 @@ body {
   .deals__header ul {
     margin-top: 1rem;
   }
+  
+  /* categories section */
+  .categories {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+  }
+  
+  .category-header {
+    height: 50rem;
+  }
+  
+  .category__img {
+    width: 9.6rem;
+    height: 9.6rem;
+    flex: 0;
+  }
+  
+  .category__img img {
+    width: 9.6rem;
+    height: 9.6rem;
+  }
 
 }
 
@@ -873,6 +892,10 @@ body {
   }
   
   /* deals container */
+  .deals {
+    margin-top: 3rem
+  }
+  
   .deals__container {
     display: flex;
     flex-direction: column;
@@ -893,6 +916,11 @@ body {
     margin-bottom: 1rem;
   }
   
+  /* categories section */
+  .categories {
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5rem;
+  }
 }
 
 /* mobile-l 425px */
