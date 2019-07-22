@@ -463,40 +463,44 @@ body {
 
 .category-box a {
   text-decoration: none;
-  color: #f42
+  color: #f42;
+}
+
+.category-box a:hover {
+  color: black;
 }
 
 
 .category-header--1 {
-  background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/reddit-multis-custom-feeds-368x276.jpg');
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.384), rgba(0, 0, 0, 0.80) 80%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/reddit-multis-custom-feeds-368x276.jpg');
 }
 
 .category-header--2 {
-  background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/SonyController-368x276.png');
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.80) 80%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/SonyController-368x276.png');
 }
 
 .category-header--3 {
-  background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/parkng-location-google-maps-basics-save-parking-parking-car-park-help-find.jpg');
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.80) 80%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/parkng-location-google-maps-basics-save-parking-parking-car-park-help-find.jpg');
 }
 
 .category-header--4 {
-  background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/TurboGrafx-Mini-368x276.jpg');
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.80) 80%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/TurboGrafx-Mini-368x276.jpg');
 }
 
 .category-header--5 {
-  background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/chineseverticalB1200-368x276.png');
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.80) 80%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/chineseverticalB1200-368x276.png');
 }
 
 .category-header--6 {
-  background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/sexist-368x276.png');
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.80) 80%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/sexist-368x276.png');
 }
 
 .category-header--7 {
-  background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/google-facebook-porn-tracking-privacy-security-368x276.jpg');
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.80) 80%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/google-facebook-porn-tracking-privacy-security-368x276.jpg');
 }
 
 .category-header--8 {
-  background: rgba(0, 0, 0, 0.384) url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Orion-Doom-Bethesda-hed-368x276.jpg');
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.80) 80%), url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Orion-Doom-Bethesda-hed-368x276.jpg');
 }
 
 .category-header {
@@ -548,6 +552,11 @@ body {
   margin-top: 1rem;
   font-size: 1.5rem;
   width: 90%;
+}
+
+.category__content h4 a:hover {
+  color: #f42;
+  text-decoration: underline;
 }
 
 .category__article {
