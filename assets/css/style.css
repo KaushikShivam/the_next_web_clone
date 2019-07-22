@@ -129,6 +129,11 @@ body {
   color: #AAA;
 }
 
+.nav__list a:hover {
+  color: black;
+  font-weight: 300;
+}
+
 /* articles */
 .articles {
   display: flex;
@@ -254,6 +259,10 @@ body {
   margin: 8rem auto;
 }
 
+.news a:hover {
+  color: black;
+}
+
 .news h3 {
   font-size: 2.8rem;
   margin-bottom: 2.5rem;
@@ -306,6 +315,7 @@ body {
 .news__box__content p a {
   text-decoration: none;
   color: #aaa;
+  margin-right: 2px;
 }
 
 .news__box__content p a:hover {
