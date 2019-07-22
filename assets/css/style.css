@@ -454,16 +454,13 @@ body {
 .categories {
   width: 80%;
   margin: 5rem auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2%;
 }
 
 /* FIXME */
 .category-box{
-  width: 37rem;
-  margin-top: 5rem;
 }
 
 .category-box h3 {
