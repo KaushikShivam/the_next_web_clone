@@ -618,6 +618,11 @@ body {
   align-self: center;
 }
 
+.latest__header a:hover,
+.latest__header a:active {
+  color:black;
+}
+
 .latest__container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -649,12 +654,17 @@ body {
   
 }
 
-
 .latest-box p span {
   text-decoration: line-through;
   font-size: 1.4rem;
   color: #AAAAAA;
   margin-right: 5px;
+}
+
+.latest__content a:hover,
+.latest__content a:active {
+  color: #f42;
+  text-decoration: underline;
 }
 
 
@@ -970,7 +980,7 @@ body {
     margin-top: 0;
     justify-content: flex-start;
   }
-
+  
 }
 
 /* mobile-l 425px */
