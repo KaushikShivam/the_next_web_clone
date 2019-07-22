@@ -267,7 +267,7 @@ body {
 .news__container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2%;
+  grid-gap: 2rem;
 }
 
 .news__box__img {
@@ -358,7 +358,7 @@ body {
 .deals__container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2%;
+  grid-gap: 2rem;
 }
 
 /* .deal-box {
@@ -456,7 +456,7 @@ body {
   margin: 5rem auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2%;
+  grid-gap: 2rem;
 }
 
 
