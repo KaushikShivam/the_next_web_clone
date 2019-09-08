@@ -17,7 +17,7 @@ It uses CSS flexbox, grids and media queries and support all major device widths
 
 1. Clone the project to your local directory
 ```
-git clone https://github.com/KaushikShivam/newsweek_clone
+git clone https://github.com/KaushikShivam/the_next_web_clone
 ```
 2. Open the index.html file in your browser to view the website in all its glory (Live-server is recommended to view live changes automatically)
 
