@@ -1,4 +1,4 @@
-# [The Next Web Clone](https://raw.githack.com/KaushikShivam/the_next_web_clone/development/index.html) - A replica of [NWC](https://thenextweb.com/)
+# [The Next Web Clone](https://raw.githack.com/KaushikShivam/the_next_web_clone/development/index.html) - A replica of [TNW](https://thenextweb.com/)
 
 ![The Next Web Screenshot](screenshot.png)
 
